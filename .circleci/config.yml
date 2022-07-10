@@ -24,7 +24,7 @@ jobs:
       - checkout
       - run:
            name: "Hello"
-           commnad: "echo Hello"
+           command: "echo Hello"
   print_world:
     docker: 
       - image: circleci/node:13.8.0
